@@ -2,6 +2,7 @@
   "version": "0.0.1",
   "name": "TODO Demo",
   "schema_version": "v1",
+  "supported_models": ["gpt-4", "gpt-3.5-turbo"],
   "description": "Create and manage a TODO lists",
   "author": "Unknown",
   "api": {
