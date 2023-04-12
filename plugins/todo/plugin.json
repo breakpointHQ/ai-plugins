@@ -1,14 +1,18 @@
 {
-  "version": "0.0.1",
-  "name": "TODO Demo",
   "schema_version": "v1",
-  "supported_models": ["gpt-4", "gpt-3.5-turbo"],
-  "description": "Create and manage a TODO lists",
-  "author": "Unknown",
+  "name_for_human": "TODO Plugin",
+  "name_for_model": "todo",
+  "description_for_human": "Plugin for managing a TODO list. You can add, remove and view your TODOs.",
+  "description_for_model": "Plugin for managing a TODO list. You can add, remove and view your TODOs.",
+  "auth": {
+    "type": "none"
+  },
   "api": {
     "type": "openapi",
-    "url": "https://raw.githubusercontent.com/breakpointHQ/ai-plugins/main/plugins/todo/openapi.yaml"
+    "url": "https://raw.githubusercontent.com/breakpointHQ/ai-plugins/main/plugins/todo/openapi.yaml",
+    "is_user_authenticated": false
   },
   "logo_url": "https://raw.githubusercontent.com/breakpointHQ/ai-plugins/main/plugins/todo/logo.png",
-  "website_url": "https://github.com/breakpointHQ/ai-plugins/plugins/todo/plugin.json"
+  "contact_email": "support@example.com",
+  "legal_info_url": "http://www.example.com/legal"
 }
